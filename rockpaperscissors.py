@@ -6,7 +6,7 @@ game=["rock","paper","scissors"]
 user_count=0
 comp_count=0
 
-#thw while is used and the loop runs until any one of the player wins by acquiring 3 points
+#the while is used and the loop runs until any one of the player wins by acquiring 3 points
 while user_count<3 and comp_count<3:
     #asks for user to enter a input in three choices
     user_choice=input("Enter your choice:(rock,paper,scissors): ")
