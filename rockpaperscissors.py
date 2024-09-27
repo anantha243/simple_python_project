@@ -1,4 +1,4 @@
-#The game rockpaperscissors includes two users 1.User 2.Computer
+#The game rockpaperscissors includes two player 1.User 2.Computer
 import random
 #the three choices are stored in a list
 game=["rock","paper","scissors"]
@@ -10,7 +10,7 @@ comp_count=0
 while user_count<3 and comp_count<3:
     #asks for user to enter a input in three choices
     user_choice=input("Enter your choice:(rock,paper,scissors): ")
-    #random is used to pick a choice of computer choice randomly
+    #random.choice() method is used to pick a choice of computer randomly
     comp_choice=random.choice(game)
     #prints the user choice and computer choice 
     print(f"The user choice is {user_choice} and computer choice is {comp_choice}")
@@ -38,7 +38,7 @@ while user_count<3 and comp_count<3:
         else:
             print("Point to User")
             user_count+=1
-    #prints the point of both user and computer
+    #prints the point of both user and computer at the end of every iteration
     print(f"User point {user_count}, Computer point {comp_count}")
 
 #prints who wins the game by acquiring maximum points(3)
