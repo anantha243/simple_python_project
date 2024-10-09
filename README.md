@@ -8,3 +8,4 @@ A simple time display program in Python using the Tkinter module creates a graph
 This Python project stores and displays personal information using various data types, such as strings, integers, floats, booleans, and lists, demonstrating basic variable and data type usage.
 ### 4. Simple Calculator
 This calculator takes the mathematical expression as input like(10+35) and evaluates according to the operator and leaves the output as 45.
+!(code snippet)(code.png)
