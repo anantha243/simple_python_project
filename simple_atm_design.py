@@ -18,11 +18,11 @@ def main():
     
 def withdrawal():
     global balance
-    withdrawl_amt=int(input("Enter the amout to withdraw "))
-    if withdrawl_amt > balance:
+    withdrawal_amt=int(input("Enter the amout to withdraw "))
+    if withdrawal_amt > balance:
         print("Insufficient Balance")
     else:
-        balance-=withdrawl_amt
+        balance-=withdrawal_amt
         print(f"Available balance {balance}rs")
 
 def deposit():
