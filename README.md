@@ -19,4 +19,8 @@ This project is a basic ATM management system implemented in Python. It allows u
    cd simple_python_project
 2. Run every file individually
    ```bash
+   python rockpaperscissors.py
+   python timedisplay.py
+   python variabledatatype.py
    python calculator.py
+   python simple_atm_design.py
