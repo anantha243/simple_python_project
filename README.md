@@ -10,3 +10,11 @@ This Python project stores and displays personal information using various data 
 This calculator takes the mathematical expression as input like(10+35) and evaluates according to the operator and leaves the output as 45.
 ### 5.ATM Management System
 This project is a basic ATM management system implemented in Python. It allows users to perform common ATM transactions such as withdrawal, deposit, and balance enquiries.
+## How to Run
+
+1. Clone the repository to your local machine:
+
+   ```bash
+   git clone https://github.com/yourusername/ATM-management-system.git
+   cd ATM-management-system
+   python atm_system.py
