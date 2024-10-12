@@ -18,4 +18,5 @@ This project is a basic ATM management system implemented in Python. It allows u
    git clone https://github.com/anantha243/simple_python_project.git
    cd simple_python_project
 2. Run every file individually
-   ```python calculator.py
+   ```bash
+   python calculator.py
